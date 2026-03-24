@@ -10,13 +10,7 @@ baseurl: ""
 url: "blog.sundayscribble.com"
 
 minima:
-  nav_pages:
-    - about.md
-    - portfolio.md
-
   header_pages:
   - about.md
-  - contact.md
-  - services.html
 
   # date_format: "%d-%m-%Y"
