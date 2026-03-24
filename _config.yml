@@ -1,5 +1,14 @@
 remote_theme: "jekyll/minima@1e8a445"
 
+title: Random Thoughts
+description: >- # This appears in meta tags and the footer
+  A collection of thoughts on cloud infrastructure, 
+  Linux system tinkering, and technical ideas.
+
+baseurl: ""
+
+url: "blog.sundayscribble.com"
+
 minima:
   nav_pages:
     - about.md
