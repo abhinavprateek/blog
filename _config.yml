@@ -1,0 +1,13 @@
+remote_theme: "jekyll/minima@1e8a445"
+
+minima:
+  nav_pages:
+    - about.md
+    - portfolio.md
+
+  header_pages:
+  - about.md
+  - contact.md
+  - services.html
+
+  # date_format: "%d-%m-%Y"
