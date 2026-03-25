@@ -1,0 +1,30 @@
+.post-container { max-width: 800px; margin: 0 auto; padding: 20px; }
+.post-header { margin-bottom: 40px; border-bottom: 2px solid #eee; padding-bottom: 20px; }
+
+.post-meta { color: #666; font-size: 0.9em; display: flex; gap: 20px; align-items: center; }
+
+.tag-badge {
+    background: #f0f0f0;
+    padding: 3px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #333;
+    transition: background 0.3s;
+}
+.tag-badge:hover { background: #e0e0e0; }
+
+.related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.related-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+.related-card:hover { transform: translateY(-5px); box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+.related-card h4 { margin: 0 0 10px 0; font-size: 1.1em; }
